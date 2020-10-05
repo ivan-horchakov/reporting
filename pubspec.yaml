@@ -9,7 +9,10 @@ environment:
 
 dependencies:
   usage: 3.4.1
-  tool_base: ^1.9.5+2
+  tool_base:
+    git:
+      url: git://github.com/ivan-horchakov/tool_base.git
+      ref: master
 #  tool_base:
 #    path: ../tool_base
 dev_dependencies:
@@ -17,7 +20,9 @@ dev_dependencies:
   test: ^1.6.0
   mockito: ^4.1.0
   tool_base_test:
-    git: https://github.com/mmcc007/tool_base_test.git
+    git:
+      url: git://github.com/ivan-horchakov/tool_base_test.git
+      ref: master
 #    path: ../tool_base_test
   args: ^1.5.1
   quiver: ^2.0.5
