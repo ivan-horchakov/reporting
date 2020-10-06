@@ -21,7 +21,7 @@ dev_dependencies:
   mockito: ^4.1.0
   tool_base_test:
     git:
-      url: git://github.com/ivan-horchakov/tool_base_test.git
+      url: https://github.com/ivan-horchakov/tool_base_test.git
       ref: master
 #    path: ../tool_base_test
   args: ^1.5.1
